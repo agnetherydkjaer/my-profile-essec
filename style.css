@@ -1,0 +1,187 @@
+body{
+	background: #F5D9C2;
+	color: #5D6369;
+	font-family: "Roboto", sans-serif;
+	line-height: 1.8;
+	font-size: 15px;
+	font-weight: 300;
+	}
+
+h1{
+	font-family: "Roboto", sans-serif;
+	color: #FF70BF;
+	line-height: 1.8;
+	font-weight: 500;
+	}
+
+h2{
+	font-family: "Roboto", sans-serif;
+	color: #FF94CF;
+	line-height: 1.8;
+	font-size: 23px;
+	font-weight: 500;
+	}
+
+i{
+	color: #FF94CF;
+	font-size: 40px;
+	transition: color 0.3s ease;
+	}
+i:hover{
+	color: deeppink;
+	}
+
+a{
+	color: #FF94CF;
+	text-decoration: none;
+	}
+
+a:hover{
+	color: deeppink;
+	}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+
+.container {
+	widows: 700px;
+	max-width: 65%;
+  	margin: 40px auto;
+
+}
+
+/*Laptop:*/
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+  .card-antiquewhite {
+    padding: 50px;
+  }
+  #logo {
+    width: 120px;
+  }
+  .emoji-row span {
+    font-size: 40px;
+  }
+}
+
+
+/*Phone:*/
+@media (max-width: 500px) {
+  .container {
+    width: 380px;
+  }
+  .card-antiquewhite {
+    padding: 40px 20px;
+  }
+  body {
+    font-size: 14px;
+  }
+  h1, h2 {
+    font-size: 20px;
+  }
+  #logo {
+    width: 100px;
+  }
+  .emoji-row span {
+    font-size: 32px;
+  }
+}
+
+
+#logo {
+	border-radius: 50%;
+	width: 100px;
+	height: auto;
+}
+
+
+.card-antiquewhite {
+  background: antiquewhite;
+  padding: 60px;
+  margin: 40px 0;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 50px;
+  text-align: center;
+
+}
+
+ .list-inline {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
+  }
+
+.list-inline i {
+	font-size: 55px;
+}
+
+#cbs-list {
+	list-style: disc;
+  	list-style-position: outside;
+  	padding: 0;
+  	margin: 0 auto;
+  	display: inline-block;
+  	text-align: left;
+
+}
+
+#cbs-list li {
+  margin: 3px 0;
+  color: #5D6369;
+}
+
+#cbs-list li::marker {
+  color: #FF94CF;
+  font-size: 1.2em;
+}
+
+
+.emoji-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.emoji-row a {
+  font-size: 50px;
+}
+
+.emoji-row a:hover {
+	transform: scale(1.15);
+  	filter: brightness(1.3);
+  	text-shadow: 0px 0px 10px #FF4FBF;
+}
+
+
+.btn-pink {
+	background-color: #FF94CF;
+	color: white;
+	padding: 15px 25px;
+	border-radius: 50px;
+	font-weight: 400;
+}
+
+.btn-pink:hover{
+	background-color: deeppink;
+	color: white;
+}
+
+#intro p{
+	margin-bottom: 40px;
+}
+
+
+
+
+
